@@ -1,0 +1,6 @@
+/*
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(self "https://meet.ffmuc.net" "https://meet.jit.si" "https://jitsi.member.fsf.org"), microphone=(self "https://meet.ffmuc.net" "https://meet.jit.si" "https://jitsi.member.fsf.org"), display-capture=(self "https://meet.ffmuc.net" "https://meet.jit.si" "https://jitsi.member.fsf.org"), geolocation=(), payment=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://www.youtube.com https://s.ytimg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob: https:; media-src 'self' blob: https:; connect-src 'self' https: wss:; frame-src https://www.youtube.com https://www.youtube-nocookie.com https://meet.ffmuc.net https://meet.jit.si https://jitsi.member.fsf.org; base-uri 'self'; form-action 'self'
